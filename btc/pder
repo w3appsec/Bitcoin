@@ -1,0 +1,2 @@
+openssl pkey -inform DER -in pri.der -text
+

@@ -1,0 +1,2 @@
+openssl ec -in pri.pem -outform DER > pri.der
+
