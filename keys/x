@@ -1,1 +1,8 @@
+../util/prihex2der pri > pri.der
+../util/prider2pem > pri.pem
+../util/pripem2pubpem
+./dpri | ../util/filtpub > pub
+./sv
+cat pri.pem
+./exportpri
 
