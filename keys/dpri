@@ -1,0 +1,2 @@
+openssl ec -inform d < pri.der -text -noout
+

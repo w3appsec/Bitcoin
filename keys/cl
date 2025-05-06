@@ -1,0 +1,4 @@
+rm *.der
+rm *.pem
+rm *.sha256
+
