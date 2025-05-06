@@ -1,1 +1,19 @@
+touch pub
+rm pub
+touch comp
+rm comp
+touch h1
+rm h1
+touch h2
+rm h2
+touch h2c
+rm h2c
+touch h3
+rm h3
+touch h3c
+rm h3c
+touch h4
+rm h4
+touch h4c
+rm h4c
 

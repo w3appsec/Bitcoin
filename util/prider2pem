@@ -1,0 +1,3 @@
+openssl ec -inform der -in pri.der -outform pem
+
+

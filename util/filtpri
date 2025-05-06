@@ -1,0 +1,2 @@
+tr -d '\n\t :' | cut -d ')' -f 2 | cut -d 'v' -f 2 | cut -d 'p' -f 1 | tr -d '\n'
+

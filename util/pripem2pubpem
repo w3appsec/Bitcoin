@@ -1,0 +1,1 @@
+openssl ec -in pri.pem -inform pem -pubout > pub.pem
