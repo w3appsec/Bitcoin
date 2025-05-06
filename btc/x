@@ -1,1 +1,9 @@
+./gpem
+./gder
+./pder | ../util/filtpri > pri
+./pder | ../util/filtpub > pub
+cat pri
+echo
+cat pub
+echo
 
