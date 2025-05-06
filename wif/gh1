@@ -1,0 +1,2 @@
+cat xprix | tr -d '\n' | xxd -r -p | openssl sha256 | cut -d ' ' -f 2 | tr -d '\n' > h1
+

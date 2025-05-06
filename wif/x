@@ -1,1 +1,17 @@
-
+ls -l pri
+./ghp
+./gh1
+./gh2
+./gchk
+./ghpc
+./gwif > wifu
+cat wifu
+echo
+./ghpf
+./gh1
+./gh2
+./gchk
+./ghpc
+./gwif > wifc
+cat wifc
+echo
