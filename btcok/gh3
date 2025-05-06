@@ -1,0 +1,4 @@
+echo "0014" | tr -d '\n' > h3c
+cat h2 >> h3c
+cat h3c | xxd -r -p | openssl sha256 | tr -d '\n' | tail -c 64 > h3
+

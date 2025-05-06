@@ -1,0 +1,1 @@
+cat h3 | xxd -r -p | openssl ripemd160 | tr -d '\n' | tail -c 40 > h4

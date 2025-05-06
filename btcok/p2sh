@@ -1,0 +1,6 @@
+cat shhdr | tr -d '\n' > h4c
+cat h4 >> h4c
+cat h4c | xxd -p -r | base58 -c > shaddr 
+cat shaddr
+echo
+

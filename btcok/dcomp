@@ -1,0 +1,2 @@
+cat comp | tr -d '\n' | tail -c 66
+

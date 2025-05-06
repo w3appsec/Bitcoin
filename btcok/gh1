@@ -1,0 +1,1 @@
+./dcomp | xxd -r -p | openssl sha256 | tr -d ' \t\n\r\f' | tail -c 64 > h1

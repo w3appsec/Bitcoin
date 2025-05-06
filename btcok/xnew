@@ -1,8 +1,6 @@
-ls -l pri
 wc -c pri
 cat pri | ./gpub
-
-python cpub.py > comp
+python cpub.py > rev | cut -c 2- | rev > comp
 wc -c comp
 ./gh1
 ./gh2

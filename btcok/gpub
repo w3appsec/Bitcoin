@@ -1,0 +1,1 @@
+openssl ec -inform DER -text -noout -in <(cat <(echo -n "302e0201010420") <(cat $1) <(echo -n "a00706052b8104000a") | xxd -r -p) 2>/dev/null | tail -6 | head -5 | sed 's/[ :]//g' | tr -d '\n' > pub

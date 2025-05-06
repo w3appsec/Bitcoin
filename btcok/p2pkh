@@ -1,0 +1,6 @@
+cat pkhhdr > h2c
+cat h2 >> h2c
+cat h2c | xxd -p -r | base58 -c > pkhaddr
+cat pkhaddr
+echo
+
